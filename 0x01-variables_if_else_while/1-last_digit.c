@@ -1,25 +1,32 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Main Entry point
- *
- * Return: always return 0 (Success)
- *
+ * main - annoying
+ * Return: 0
 */
 int main(void)
-
 {
-	int n, last;
-	
+	int n;
+	int x;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last = n % 10;
-	if (last > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n, last);
-	else if (last == 0)
-		printf("Last digit of %d is %d and is 0\n", n, last);
-	else if (last < 6 && last != 0)
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
+	x = n % 10;
+	printf("Last digit of %d is %d ", n, x);
+	if (x > 5)
+	{
+		printf("and is greater than 5");
+	}
+	if (x == 0)
+	{
+		printf("and is 0");
+	}
+	if (x < 6 && x != 0)
+	{
+		printf("and is less than 6 and not 0");
+	}
+	printf("\n");
 	return (0);
 }
