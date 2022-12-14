@@ -1,23 +1,17 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main - i am here today
- *
- * Return: Always 0 (Success)
+ *print_alphabet - prints the alphabet in lowercase, followed by a new line.
  *
 */
-int main(void)
-{
-	int i = 97;
 
-	while (i < 123)
-	{
-		if (i != 101 && i != 133)
-		{
-			putchar(i);
-		}
-		i++;
-	}
-	putchar(9);
-	return (0);
+void print_alphabet(void)
+
+{
+	char letter;
+
+	for (letter = ‘a’; letter <= ‘z’; letter++)
+		_putchar(letter);
+	_putchar(‘\n’);
+
 }
