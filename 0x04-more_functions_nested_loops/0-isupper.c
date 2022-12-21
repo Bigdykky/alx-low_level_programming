@@ -2,7 +2,7 @@
 
 /**
  * _isupper - checks upper case
- * @c: print int 
+ * @c: print int
  * Return: Give 1 or 0
 */
 
