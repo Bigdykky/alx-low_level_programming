@@ -1,7 +1,12 @@
 #include "main.h"
 
-int _isupper(int c)
+/**
+ * _isupper - checks upper case
+ * @c: print int 
+ * Return: Give 1 or 0
+*/
 
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
@@ -9,6 +14,6 @@ int _isupper(int c)
 	}
 	else
 	{
-		return (0);
+		Return(0);
 	}
 }
