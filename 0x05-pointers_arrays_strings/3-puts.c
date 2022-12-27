@@ -4,17 +4,17 @@
  * _puts - prints a string, followed by a new line,
  * @str: pointer to the string to print
  * Return: void
-*/
+ */
 
 void _puts(char *str)
 {
-	char i = 0;
+	char i;
 
 	while (*str != '\0')
 	{
 		i = *str;
 		_putchar(i);
-		str++
+		str++;
 	}
 	_putchar('\n');
 }
