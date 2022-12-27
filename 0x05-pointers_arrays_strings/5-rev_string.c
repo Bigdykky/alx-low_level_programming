@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _string - checks lenght of string
+ * _strlen - checks lenght of string
  * @s: String to reverse
  * Return: result
 */
