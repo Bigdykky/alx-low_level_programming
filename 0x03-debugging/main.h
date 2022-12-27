@@ -1,5 +1,4 @@
 #ifndef MAIN_H
-
 #define MAIN_H
 
 #include <stdio.h>
@@ -9,9 +8,7 @@
  * @i: char to check
  */
 
-
 void positive_or_negative(int i);
-
 
 /**
  * largest_number - check the largest number among
@@ -22,9 +19,7 @@ void positive_or_negative(int i);
  * Return: largest number
  */
 
-
 int largest_number(int a, int b, int c);
-
 
 /**
  * print_remaining_days - takes a date and
@@ -35,9 +30,7 @@ int largest_number(int a, int b, int c);
  * @year: year
  */
 
-
 void print_remaining_days(int month, int day, int year);
-
 
 /**
  * convert_day - converts day of month to dayof the year, without accounting
@@ -45,7 +38,6 @@ void print_remaining_days(int month, int day, int year);
  * @day: day of the month
  * Return: day
  */
-
 
 int convert_day(int month, int day);
 
