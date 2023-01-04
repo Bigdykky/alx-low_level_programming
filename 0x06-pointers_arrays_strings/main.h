@@ -1,5 +1,4 @@
 #ifndef MAIN_H
-
 #define MAIN_H
 
 /**
@@ -38,6 +37,41 @@ char *_strncat(char *dest, char *src, int n);
  */
 
 char *_strncpy(char *dest, char *src, int n);
+
+/**
+ * _strcmp - compares strings
+ * @s1: string1
+ * @s2: string2
+ * Return: less than 0, 0, greater than 0
+ */
+
+int _strcmp(char *s1, char *s2);
+
+/**
+ * reverse_array - reverses array contents
+ * @a: array
+ * @n: size of array
+ * Return: void
+ */
+
+void reverse_array(int *a, int n);
+
+/**
+ * string_toupper - changes lwercade to uppercase letters
+ * @s: string
+ * Return: char
+ */
+
+char *string_toupper(char *s);
+
+/**
+ * cap_string - capitalize string
+ * @s: string
+ * Return: char
+ */
+
+char *cap_string(char *s);
+
 
 
 #endif
