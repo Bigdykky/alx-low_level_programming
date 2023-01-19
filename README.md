@@ -1,1 +1,1 @@
-my world
+pointers array strings
